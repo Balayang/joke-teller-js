@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Joke Teller App</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/normalize.css" />
+	</head>
+	<body>
+		<div class="container">
+			<button onclick="getJokes()" class="button" id="button">Tell Me A Joke</button>
+			<audio onended="toggleButton()" id="audio" hidden controls></audio>
+		</div>
+		<script src="js/apiKey.js"></script>
+		<script src="js/voice.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
